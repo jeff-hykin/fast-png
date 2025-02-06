@@ -1,23 +1,23 @@
-import { IOBuffer } from 'iobuffer';
-import { inflate, Inflate as Inflator } from 'pako';
+import { IOBuffer } from "https://esm.sh/iobuffer@5.3.2" /* CHECKME: unknown that was prefixed */;
+import { inflate, Inflate as Inflator } from "https://esm.sh/pako@2.1.0" /* CHECKME: unknown that was prefixed */;
 
-import { checkCrc } from './helpers/crc';
-import { decodeInterlaceNull } from './helpers/decodeInterlaceNull';
-import { checkSignature } from './helpers/signature';
-import { decodetEXt, readKeyword, textChunkName } from './helpers/text';
+import { checkCrc } from "./helpers/crc.ts";
+import { decodeInterlaceNull } from "./helpers/decodeInterlaceNull.ts";
+import { checkSignature } from "./helpers/signature.ts";
+import { decodetEXt, readKeyword, textChunkName } from "./helpers/text.ts";
 import {
   ColorType,
   CompressionMethod,
   FilterMethod,
   InterlaceMethod,
-} from './internalTypes';
+} from "./internalTypes.ts";
 import type {
   BitDepth,
   DecodedPng,
   DecoderInputType,
   IndexedColors,
   PngDecoderOptions,
-} from './types';
+} from "./types.ts";
 
 export default class PngDecoder extends IOBuffer {
   private readonly _checkCrc: boolean;

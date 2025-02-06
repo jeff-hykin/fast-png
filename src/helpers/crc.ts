@@ -1,4 +1,4 @@
-import type { IOBuffer } from 'iobuffer';
+import type { IOBuffer } from "https://esm.sh/iobuffer@5.3.2" /* CHECKME: unknown that was prefixed */;
 
 const crcTable: number[] = [];
 for (let n = 0; n < 256; n++) {

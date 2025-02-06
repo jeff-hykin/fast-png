@@ -1,9 +1,9 @@
 // @ts-expect-error TS not defined but this is a test
-import { PNG } from 'pngjs';
-import { describe, expect, it } from 'vitest';
+import { PNG } from "https://esm.sh/pngjs" /* CHECKME: unknown that was prefixed */;
+import { describe, expect, it } from "https://esm.sh/vitest" /* CHECKME: unknown that was prefixed */;
 
-import type { ImageData } from '../index';
-import { encode, decode } from '../index';
+import type { ImageData } from "../index.ts";
+import { encode, decode } from "../index.ts";
 
 const simpleRGBAData = new Uint8Array([
   255, 255, 255, 255, 0, 0, 0, 255, 0, 0, 0, 255, 255, 255, 255, 255,

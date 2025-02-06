@@ -1,0 +1,31 @@
+{
+  "version": "4",
+  "redirects": {
+    "https://esm.sh/iobuffer": "https://esm.sh/iobuffer@5.3.2",
+    "https://esm.sh/pako": "https://esm.sh/pako@2.1.0"
+  },
+  "remote": {
+    "https://esm.sh/iobuffer@5.3.2": "296cabeef24aaaaf619d2c6456d9f42a0f26511f4abb8f09d333530b1d8997eb",
+    "https://esm.sh/iobuffer@5.3.2/denonext/iobuffer.mjs": "c674d980724dc727a9a2ef5fc805a40d9590ef37d6c904e4e1f3c6296cab3e5d",
+    "https://esm.sh/pako@2.1.0": "3dcc4182e7adf7e7639788c643bb99c4379e2d4ffd475b29fbf4b8590d9dd3ac",
+    "https://esm.sh/pako@2.1.0/denonext/pako.mjs": "594b3ce0f5ddae3b774b96a54a8da85a7cef98cead7ce5b2e74c7baf5dd06688"
+  },
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:@types/node@^22.13.0",
+        "npm:@types/pako@^2.0.3",
+        "npm:@vitest/coverage-v8@^3.0.4",
+        "npm:eslint-config-cheminfo-typescript@17",
+        "npm:eslint@^9.19.0",
+        "npm:iobuffer@^5.3.2",
+        "npm:pako@^2.1.0",
+        "npm:pngjs@7",
+        "npm:prettier@^3.4.2",
+        "npm:rimraf@^6.0.1",
+        "npm:typescript@^5.7.3",
+        "npm:vitest@^3.0.4"
+      ]
+    }
+  }
+}

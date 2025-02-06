@@ -1,7 +1,7 @@
-import type { IOBuffer } from 'iobuffer';
-import type { DeflateFunctionOptions } from 'pako';
+import type { IOBuffer } from "https://esm.sh/iobuffer@5.3.2" /* CHECKME: unknown that was prefixed */;
+import type { DeflateFunctionOptions } from "https://esm.sh/pako@2.1.0" /* CHECKME: unknown that was prefixed */;
 
-export type { DeflateFunctionOptions } from 'pako';
+export type { DeflateFunctionOptions } from "https://esm.sh/pako@2.1.0" /* CHECKME: unknown that was prefixed */;
 
 export type PngDataArray = Uint8Array | Uint8ClampedArray | Uint16Array;
 

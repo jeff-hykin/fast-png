@@ -1,22 +1,22 @@
-import { IOBuffer } from 'iobuffer';
-import { deflate } from 'pako';
+import { IOBuffer } from "https://esm.sh/iobuffer@5.3.2" /* CHECKME: unknown that was prefixed */;
+import { deflate } from "https://esm.sh/pako@2.1.0" /* CHECKME: unknown that was prefixed */;
 
-import { writeCrc } from './helpers/crc';
-import { writeSignature } from './helpers/signature';
-import { encodetEXt } from './helpers/text';
+import { writeCrc } from "./helpers/crc.ts";
+import { writeSignature } from "./helpers/signature.ts";
+import { encodetEXt } from "./helpers/text.ts";
 import {
   ColorType,
   CompressionMethod,
   FilterMethod,
   InterlaceMethod,
-} from './internalTypes';
+} from "./internalTypes.ts";
 import type {
   DeflateFunctionOptions,
   PngEncoderOptions,
   ImageData,
   PngDataArray,
   BitDepth,
-} from './types';
+} from "./types.ts";
 
 const defaultZlibOptions: DeflateFunctionOptions = {
   level: 3,

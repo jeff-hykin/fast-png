@@ -1,15 +1,15 @@
-import PngDecoder from './PngDecoder';
-import PngEncoder from './PngEncoder';
+import PngDecoder from "./PngDecoder.ts";
+import PngEncoder from "./PngEncoder.ts";
 import type {
   DecoderInputType,
   PngDecoderOptions,
   DecodedPng,
   ImageData,
   PngEncoderOptions,
-} from './types';
+} from "./types.ts";
 
-export { hasPngSignature } from './helpers/signature';
-export * from './types';
+export { hasPngSignature } from "./helpers/signature.ts";
+export * from "./types.ts";
 
 function decodePng(
   data: DecoderInputType,

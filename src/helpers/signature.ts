@@ -1,4 +1,4 @@
-import type { IOBuffer } from 'iobuffer';
+import type { IOBuffer } from "https://esm.sh/iobuffer@5.3.2" /* CHECKME: unknown that was prefixed */;
 
 // https://www.w3.org/TR/PNG/#5PNG-file-signature
 

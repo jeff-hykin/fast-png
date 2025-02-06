@@ -1,11 +1,11 @@
-import assert from 'node:assert';
-import { readFileSync } from 'node:fs';
-import { join } from 'node:path';
+import assert from "node:assert";
+import { readFileSync } from "node:fs";
+import { join } from "node:path";
 
-import { describe, expect, it } from 'vitest';
+import { describe, expect, it } from "https://esm.sh/vitest" /* CHECKME: unknown that was prefixed */;
 
-import type { PngDecoderOptions, DecodedPng } from '../index';
-import { decode } from '../index';
+import type { PngDecoderOptions, DecodedPng } from "../index.ts";
+import { decode } from "../index.ts";
 
 describe('decode', () => {
   it('BW2x2', () => {
